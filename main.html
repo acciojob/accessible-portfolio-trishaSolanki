@@ -1,38 +1,31 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Accessibility Example</title>
+<link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-	
- 
-  <nav><h1>  Protfolio</h1>
-    <ul>
-      <li><a href="#" role="navigation">Home</a></li>
-      <li><a href="#" role="navigation">About</a></li>
-      <li><a href="#" role="navigation">Portfolio</a></li>
-      <li><a href="#" role="navigation">Contact</a></li>
+<header role="banner">
+  <h1 role="heading" aria-level="1">Website Example</h1>
+  <nav role="navigation">
+    <ul role="list">
+      <li role="listitem"><a href="#" role="link">Home</a></li>
+      <li role="listitem"><a href="#" role="link">About</a></li>
+      <li role="listitem"><a href="#" role="link">Contact</a></li>
     </ul>
   </nav>
-  <div class="portfolio">
-    <h1 role="heading">Welcome to My Portfolio</h1>
-    <img src="C:\Users\singh\OneDrive\Pictures\Saved Pictures\WhatsApp Image 2023-07-24 at 14.32.18.jpg" alt="My Portfolio Image" role="img">
-    <p><i>This is a brief description of my portfolio. I specialize in web development and design.</i></p>
-    <h2 role="heading">Featured Projects</h2>
-    <ul role="list">
-      <li role="listitem">Project 1: Web Design</li>
-      <li role="listitem">Project 2: E-commerce Website</li>
-      <li role="listitem">Project 3: Portfolio Website</li>
-    </ul>
-  </div>
-
-    <script type="text/javascript" src="./script.js">
-</script>
-
+</header>
+<main role="main">
+  <img src="C:\Users\singh\OneDrive\Pictures\Camera Roll\WIN_20230512_13_31_53_Pro.jpg" alt="Image" role="img">
+  <p role="paragraph">Welcome to our website! We offer a variety of products to suit your needs.</p>
+  <h2 role="heading" aria-level="2">Featured Products</h2>
+  <ul role="list">
+    <li role="listitem">Product 1</li>
+    <li role="listitem">Product 2</li>
+    <li role="listitem">Product 3</li>
+  </ul>
+</main>
 </body>
-
 </html>
